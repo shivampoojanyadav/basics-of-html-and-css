@@ -1,0 +1,106 @@
+/* body{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    background-color:yellow;
+    text-align: center;
+}
+
+p{
+    text-align:justify;
+    padding: 10px;
+    display:none;
+}
+
+.a:hover p{
+    display:block;
+    background-color:red;
+    color:whitesmoke;
+} */
+
+/* body{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    background-color:blue;
+    color:white;
+    text-align:center;
+} */
+
+/* h3:: after{   ye nahi chalega yaha iske liye style tag ke andar he likhna padta hai isse
+    content:😭;
+} */
+
+/* h2::before{
+    content:"hello coders";
+    display:block;
+    text-align:center;
+    color:white;
+    background-color:red;
+}
+h2::after{
+    content:"learn coding";
+    display:block;
+    text-align:center;
+    color:white;
+    background-color:red;
+} */
+body{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    background-color:blue;
+    color:white;
+    text-align:center;
+}
+
+ul{
+    background-color: black;
+    position:sticky;
+    top:0;
+}
+ul li{
+    background-color:grey;
+    display:inline-block;
+    padding:10px;
+}
+
+ul li:hover{
+    background-color:green;
+    color:white;
+    padding-left:15px;
+    transition:0.8s;
+}
+
+h2,h3{
+    text-align:center;
+}
+p{
+    text-align:justify;
+}
+
+
+.gallery{
+    width:350px;
+    height:auto;
+    border:5px solid red;
+    float:left;
+    padding:10px;
+}
+
+img{
+    width:350px;
+    height:200px;
+}
+
+.text{
+    font-size:25px;
+    text-align:center;
+    background-color:darkred;
+    color:whitesmoke;
+}

@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    background-color:dodgerblue;
+    color:white;
+    text-align:center
+}
+
+div{
+    height:3cm;
+    width:3cm;
+    border:1px solid grey;
+    margin:10px;
+    text-align:center;
+    /* line-height: 3cm; */
+    margin-left:50%;
+    border-radius:10px;
+}
+
+.a{
+    background-color:red;
+}
+.b{
+    background-color:orange;
+}
+.c{
+    background-color:blue;
+}
+.d{
+    background-color:green;
+}
+
+.a:hover{
+    transform:rotate(360deg);
+    transition:1s;
+}
+.b:hover{
+    transform:translate(2cm,3cm);
+    transition:1s;
+}
+.c:hover{
+    transform:scale(1,3);
+    transition:3s;
+}
+.d:hover{
+    height:2cm;
+    width: 6cm;
+    transform:skew(20deg,10deg);
+    transition:1s;
+}

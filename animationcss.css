@@ -1,0 +1,26 @@
+.a{
+    width:3cm;
+    height:3cm;
+    background-color:red;
+    animation-name:ab;
+    animation-duration:2s;
+    position: relative;
+    animation-iteration-count:3;
+    animation-direction:reverse;
+}
+
+@keyframes ab{
+    /* from{
+        background-color: red;
+        top:200px;
+    }
+    to{background-color:green;
+        top:0px;   
+    } */
+
+    0%{left:0; top:0;}
+    25%{left:200px; top:0px;}
+    50%{top:200px; left:200px;}
+    75%{top:200px; left:0px;}
+    100%{top:0px; left:0px;}
+}

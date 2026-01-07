@@ -1,0 +1,19 @@
+table{
+    border-collapse:collapse;
+    width:100%;
+    height: 300px;
+    text-align:center;
+    background-color: lightblue;
+}
+.a{
+    background-color:green;
+    color:white;
+    font-size:25px;
+}
+.b{
+    background-color:yellow;
+    font-size:18px;
+}
+.c{
+    font-weight: bold;
+}
